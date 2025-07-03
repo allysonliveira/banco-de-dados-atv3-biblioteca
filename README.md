@@ -74,7 +74,7 @@ Cada entidade possui um arquivo de serviço responsável pelas operações:
 - `atualizar_<entidade>`
 - `remover_<entidade>`
 
-## 📌 Observações
+##  Observações
 
 - O projeto segue as boas práticas de separação de responsabilidades (modelos, serviços e camada de teste).
 - A tabela `itememprestimo` implementa a relação N:N entre empréstimos e exemplares.
