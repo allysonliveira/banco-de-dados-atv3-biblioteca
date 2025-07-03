@@ -1,8 +1,9 @@
 # Sistema de Biblioteca com Python, PostgreSQL e SQLAlchemy
 
-Este projeto implementa uma aplicação de gerenciamento de uma biblioteca utilizando SQLAlchemy (ORM) com PostgreSQL. O sistema segue todas as instruções propostas na Etapa 2 do trabalho da disciplina de Banco de Dados (UFRN).
+Este projeto implementa uma aplicação de gerenciamento de uma biblioteca utilizando SQLAlchemy (ORM) com PostgreSQL. 
+O sistema segue todas as instruções propostas na Atividade 03 da disciplina BANCO DE DADOS (DCA3604).
 
-## O que foi solicitado na Etapa 2 do Trabalho
+## Etapas e instruções do trabalho:
 
 ### 1. Utilizar SQLAlchemy para mapear tabelas em classes Python (ORM)
 - Local: Pasta `models/`
