@@ -96,4 +96,4 @@ for aluno in session.query(Aluno).all():
     print(aluno.nome)
 ```
 
-Este código foi adaptado no `main.py` real para também inserir um aluno e listar todos os alunos da tabela, cumprindo assim completamente a instrução final do roteiro.
+Este código foi adaptado no `main.py` real para também inserir um aluno e listar todos os alunos da tabela, de acordo com as instruções solicitadas do presente trabalho. 
