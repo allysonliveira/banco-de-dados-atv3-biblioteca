@@ -1,15 +1,15 @@
-# 📚 Sistema de Biblioteca com Python, PostgreSQL e SQLAlchemy
+# Sistema de Biblioteca com Python, PostgreSQL e SQLAlchemy
 
 Este projeto implementa uma aplicação para gerenciamento de empréstimos de livros em uma biblioteca, utilizando modelagem relacional com SQLAlchemy e integração com um banco de dados PostgreSQL.
 
-## 🔧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.8+
 - PostgreSQL
 - SQLAlchemy
 - psycopg2
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 biblioteca/
@@ -33,7 +33,7 @@ biblioteca/
     └── emprestimo_exemplar_service.py
 ```
 
-## ⚙️ Pré-requisitos
+## Pré-requisitos
 
 - PostgreSQL instalado e rodando localmente.
 - Criar um banco chamado `biblioteca_db`.
@@ -49,11 +49,11 @@ DATABASE_URL = "postgresql+psycopg2://usuario:senha@localhost:5432/biblioteca_db
 pip install sqlalchemy psycopg2
 ```
 
-## 🗃️ Criação das Tabelas
+##  Criação das Tabelas
 
 Este projeto **não cria as tabelas automaticamente**. Você deve criar previamente o esquema no PostgreSQL com base na modelagem relacional descrita na Etapa 1 do trabalho.
 
-## ▶️ Executando o Projeto
+##  Executando o Projeto
 
 Para testar o funcionamento:
 
@@ -65,7 +65,7 @@ O script irá:
 - Inserir um aluno de teste
 - Listar todos os alunos cadastrados
 
-## 🛠️ Operações CRUD
+##  Operações CRUD
 
 Cada entidade possui um arquivo de serviço responsável pelas operações:
 - `criar_<entidade>`
